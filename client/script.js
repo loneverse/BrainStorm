@@ -84,7 +84,7 @@ const handleSubmit = async (e) => {
   // messageDiv.innerHTML = "..."
   loader(messageDiv);
 
-  const response = await fetch("http://localhost:7000", {
+  const response = await fetch("https://brainstorm-mpyi.onrender.com/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
