@@ -20,7 +20,7 @@ body {
 #app {
   width: 100vw;
   height: 100vh;
-  background: #22577a;
+  background: #446276;
 
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   scroll-behavior: smooth;
 }
 
@@ -119,28 +119,26 @@ body {
 }
 
 form {
-  width: 100%;
+  width: 40%;
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 10px;
-  background: #40414F;
-
+  margin: 10px auto;
+  padding-bottom: 10px;
+  margin-bottom: -50px;
+  max-height: 200px;
+  background: #000000;
   display: flex;
-  flex-direction: row;
-  gap: 10px;
 }
 
 textarea {
   width: 100%;
-
   color: rgb(255, 255, 255);
   font-size: 18px;
-
-  padding: 30px;
+  padding: 10px;
   background: transparent;
   border-radius: 5px;
   border: none;
   outline: none;
+  
 }
 
 button {
@@ -153,4 +151,17 @@ button {
 form img {
   width: 30px;
   height: 30px;
+}
+h1{
+  text-align: center;
+  color: #fefefe;
+  margin-top: 20px;
+}
+h2{
+  
+      text-align: center;
+      font-size: 14px;
+      color: #fefefe;
+      margin-top: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
